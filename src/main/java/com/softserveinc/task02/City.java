@@ -50,6 +50,9 @@ public class City {
 
     @Override
     public String toString() {
-        return super.toString();
+        return  "City: " + name + "\n" +
+                "Region: " + region + "\n" +
+                "Country: " + country + "\n" +
+                "inhabitants: " + inhabitants + "\n";
     }
 }
